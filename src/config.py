@@ -1,0 +1,42 @@
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA_DIR = ROOT / "data"
+OUTPUT_DIR = ROOT / "outputs"
+
+SHIPMENTS_CSV = DATA_DIR / "shipment_records.csv"
+NOTES_CSV = DATA_DIR / "context_notes.csv"
+SAMPLE_OUTPUT_CSV = DATA_DIR / "sample_output_format_v2.csv"
+
+HISTORY_WINDOW_WEEKS = 8
+
+MIN_RISE_VS_OWN_PCT = 5.0
+MIN_RISE_VS_PEERS_PCT = 5.0
+MIN_Z_SCORE = 2.0
+STRONG_PEER_GAP_PCT = 20.0
+MIN_WEEKS_FOR_NOISE = 8
+
+CACHE_DIR = OUTPUT_DIR / "llm_cache"
+PARSED_NOTES_JSON = OUTPUT_DIR / "parsed_notes.json"
+TOKEN_LOG_JSON = OUTPUT_DIR / "token_log.json"
+VERDICTS_CSV = OUTPUT_DIR / "verdicts.csv"
+FLAGS_CSV = OUTPUT_DIR / "flags.csv"
+
+MAX_EXPLANATION_CHARS = 400
+MAX_CHAT_ROWS = 30
+MAX_CHAT_ANSWER_CHARS = 900
+
+OLLAMA_URL = "http://localhost:11434/api/chat"
+LLM_MODEL = "qwen2.5:7b"
+LLM_TEMPERATURE = 0
+LLM_SEED = 0
+LLM_TIMEOUT_SECONDS = 600
+INPUT_PRICE_PER_MILLION_USD = 0.0
+OUTPUT_PRICE_PER_MILLION_USD = 0.0
+
+EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
+TOP_K_NOTES = 5
+
+OPEN_ENDED_NOTE_WEEKS = 4
+MAGNITUDE_TOLERANCE_PCT = 4.0
+ALL_ROUTES = "All Routes"

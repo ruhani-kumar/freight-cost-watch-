@@ -1,0 +1,12 @@
+{
+  "llm_calls": 16,
+  "cache_hits": 0,
+  "input_tokens": 4386,
+  "output_tokens": 500,
+  "model": "qwen2.5:7b",
+  "temperature": 0,
+  "seed": 0,
+  "input_price_per_million_usd": 0.0,
+  "output_price_per_million_usd": 0.0,
+  "estimated_cost_usd": 0.0
+}

@@ -1,0 +1,14 @@
+{
+  "labeled_rows": 46,
+  "flag_precision": 1.0,
+  "flag_recall": 1.0,
+  "true_positives": 19,
+  "false_positives": 0,
+  "false_negatives": 0,
+  "verdict_accuracy_on_caught": 1.0,
+  "correct_note_id_on_justified": 1.0,
+  "wrongly_justified_rows": [],
+  "mismatches": [],
+  "justified_rows_audited": 6,
+  "audit_failures": []
+}

@@ -1,0 +1,12 @@
+Reproducibility check: 3 fresh runs of python -m src.pipeline --fresh
+LLM: qwen2.5:7b, temperature 0, seed 0
+Each run clears the saved LLM answers first, so the LLM is genuinely called again every time.
+
+run 1: file hash 57ba6a627fc17bab, llm_calls 16, input_tokens 4386, output_tokens 500
+run 2: file hash d8431cc45580d276, llm_calls 16, input_tokens 4386, output_tokens 495
+run 3: file hash d8431cc45580d276, llm_calls 16, input_tokens 4386, output_tokens 495
+
+run 1 vs run 2: numbers, flags, verdicts and note ids identical = True; reason texts that differ = 1
+run 1 vs run 3: numbers, flags, verdicts and note ids identical = True; reason texts that differ = 1
+
+RESULT: PASS - all columns except reason wording identical across runs = True

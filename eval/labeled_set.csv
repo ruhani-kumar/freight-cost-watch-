@@ -1,0 +1,47 @@
+route,week_of,expected,expected_note_id,kind,rationale
+Ahmedabad-Mumbai,2025-01-20,No (justified),N002,justified,Festival surcharge note N002 covers exactly this week on this corridor
+Chennai-Bangalore,2025-02-24,No (justified),N001,justified,First week of the flood window in N001
+Chennai-Bangalore,2025-03-03,No (justified),N001,justified,Inside the N001 flood window (Feb 24 to Mar 8)
+Mumbai-Pune,2025-05-05,No (justified),N003,justified,First week of the nationwide diesel rise in N003 and the rise is within the 5-7 percent it describes
+Mumbai-Pune,2025-05-12,No (justified),N003,justified,Second week of the diesel rise and the rise is within the size N003 describes
+Kolkata-Bhubaneswar,2025-05-26,No (justified),N003,justified,Fourth week after the diesel note start and still inside the 4 week window
+Chennai-Bangalore,2025-03-10,Yes,,unexplained,Flood note N001 ended Mar 8 and N009 says roads were back to normal from Mar 9
+Chennai-Bangalore,2025-03-17,Yes,,unexplained,N009 confirms normal conditions so no note explains a rise this week
+Delhi-Jaipur,2024-11-11,Yes,,unexplained,Large spike and no note covers this route or date
+Delhi-Jaipur,2024-11-18,Yes,,unexplained,Spike continues and no note covers this route or date
+Mumbai-Delhi,2025-05-12,Yes,,unexplained,Rise of about 11 percent is far above the 5-7 percent that N003 describes
+Mumbai-Delhi,2025-06-02,Yes,,unexplained,Five weeks after the diesel note start so outside the 4 week window
+Mumbai-Pune,2025-06-16,Yes,,unexplained,Six weeks after the diesel note start and 13 percent above similar routes
+Mumbai-Pune,2025-06-23,Yes,,unexplained,Seven weeks after the diesel note start and 20 percent above similar routes
+Mumbai-Pune,2025-09-15,Yes,,unexplained,Rising well above similar routes and the only nearby note N006 says demand was stable
+Mumbai-Pune,2025-10-20,Yes,,unexplained,Persistent gap to similar routes and no cost raising note
+Mumbai-Pune,2025-11-17,Yes,,unexplained,Persistent gap to similar routes and no cost raising note
+Mumbai-Pune,2025-12-08,Yes,,unexplained,Persistent gap to similar routes and no cost raising note
+Mumbai-Pune,2025-12-22,Yes,,unexplained,Persistent gap to similar routes and no cost raising note
+Mumbai-Delhi,2024-07-29,not flagged,,trap_not_flagged,N005 week and it says costs were not significantly affected and costs are normal
+Delhi-Jaipur,2024-05-20,not flagged,,trap_not_flagged,N007 says road conditions improved and costs are normal or lower
+Kolkata-Bhubaneswar,2025-06-09,not flagged,,trap_not_flagged,N008 says no disruption and costs are normal
+Mumbai-Pune,2024-03-11,not flagged,,trap_not_flagged,N004 toll note is about routes not in the dataset and Mumbai-Pune is flat versus its history
+Delhi-Jaipur,2025-09-22,not flagged,,trap_not_flagged,N006 says stable demand and cost is below its history
+Ahmedabad-Mumbai,2025-10-27,not flagged,,trap_not_flagged,N010 says no rate change and cost is below its history
+Chennai-Bangalore,2025-03-24,not flagged,,trap_not_flagged,Cost fell sharply after the flood ended so there is no rise to flag
+Chennai-Bangalore,2025-04-14,not flagged,,trap_not_flagged,Cost still well below the inflated flood-period history
+Chennai-Bangalore,2025-04-21,not flagged,,trap_not_flagged,Cost still well below the inflated flood-period history
+Ahmedabad-Mumbai,2025-11-17,not flagged,,normal,Ordinary week close to history and to similar routes
+Ahmedabad-Mumbai,2025-12-15,not flagged,,normal,Ordinary week close to history and to similar routes
+Chennai-Bangalore,2024-06-24,not flagged,,normal,Ordinary week close to history and to similar routes
+Chennai-Bangalore,2024-12-23,not flagged,,normal,Ordinary week close to history and to similar routes
+Chennai-Bangalore,2025-07-14,not flagged,,normal,Ordinary week close to history and to similar routes
+Chennai-Bangalore,2025-12-22,not flagged,,normal,Ordinary week close to history and to similar routes
+Kolkata-Bhubaneswar,2024-11-11,not flagged,,normal,Ordinary week close to history and to similar routes
+Kolkata-Bhubaneswar,2025-06-23,not flagged,,normal,Ordinary week close to history and to similar routes
+Kolkata-Bhubaneswar,2025-09-15,not flagged,,normal,Ordinary week close to history and to similar routes
+Mumbai-Delhi,2025-03-31,not flagged,,normal,Ordinary week close to history and to similar routes
+Ahmedabad-Mumbai,2024-04-22,not flagged,,noisy_normal,Small wobble of about 4 percent on both comparisons and this is within ordinary week to week noise
+Chennai-Bangalore,2024-10-21,not flagged,,noisy_normal,Small wobble of about 3 to 4 percent within ordinary noise
+Delhi-Chennai,2024-06-03,not flagged,,noisy_normal,Small wobble of about 3 to 4 percent within ordinary noise
+Delhi-Chennai,2024-06-17,not flagged,,noisy_normal,Small wobble of about 4 percent within ordinary noise
+Kolkata-Bhubaneswar,2024-02-19,not flagged,,noisy_normal,Small wobble of about 4 percent within ordinary noise
+Kolkata-Bhubaneswar,2024-09-16,not flagged,,noisy_normal,Small wobble of about 3 to 4 percent within ordinary noise
+Mumbai-Delhi,2024-04-22,not flagged,,noisy_normal,Small wobble of about 3 to 4 percent within ordinary noise
+Mumbai-Delhi,2024-04-29,not flagged,,noisy_normal,Small wobble of about 3 to 4 percent within ordinary noise
